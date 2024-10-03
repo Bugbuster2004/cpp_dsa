@@ -10,6 +10,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Bugbuster2004/cpp_dsa/tree/master/0001-two-sum) |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/Bugbuster2004/cpp_dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
 ## Linked List
 |  |
 | ------- |
@@ -29,5 +30,10 @@
 ## Backtracking
 |  |
 | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/Bugbuster2004/cpp_dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0494-target-sum](https://github.com/Bugbuster2004/cpp_dsa/tree/master/0494-target-sum) |
+## String
+|  |
+| ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/Bugbuster2004/cpp_dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
 <!---LeetCode Topics End-->
