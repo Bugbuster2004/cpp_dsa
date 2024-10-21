@@ -94,36 +94,47 @@ struct Node {
     Node* left;
     Node* right;
 };*/
-class Solution{
-    public:
+class Solution {
+public:
     vector<int> inOrder(Node* root)
     {
-        vector<int> result;
-        stack<Node*> st;
-        Node* current = root;
-
-        while (current != NULL || !st.empty()) {
-            // Reach the leftmost node of the current node
-            while (current != NULL) {
-                st.push(current); // Place pointer to a tree node on the stack before traversing left
-                current = current->left;
+        //code here
+        vector<int> ans;
+        
+        //if left doesnt exist
+        while(root){
+            if(!root->left){
+            ans.push_back(root-> data);
+            root = root->right;
             }
-
-            // Current must be NULL at this point, so we pop from stack
-            current = st.top();
-            st.pop();
-            
-            // Visit the node
-            result.push_back(current->data);
-
-            // Move to the right subtree
-            current = current->right;
+            else{
+                
+                Node* curr = root ->left;
+                
+                while(curr ->right && curr->right!=root){
+                    curr = curr->right;
+                }
+                
+                //left subtree not traversed
+                if(curr -> right ==NULL){
+                    curr -> right = root;
+                    root = root ->left;
+                }
+                
+                else{
+                    //already traversed
+                    curr -> right = NULL;
+                    ans.push_back(root->data);
+                    root = root->right;
+                }
+                
+                
+            }
         }
-
-        return result;
+        
+        return ans;
     }
 };
-
 
 //{ Driver Code Starts.
 
