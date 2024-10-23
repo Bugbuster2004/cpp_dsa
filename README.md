@@ -19,6 +19,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Bugbuster2004/cpp_dsa/tree/master/0002-add-two-numbers) |
+| [0412-fizz-buzz](https://github.com/Bugbuster2004/cpp_dsa/tree/master/0412-fizz-buzz) |
 ## Recursion
 |  |
 | ------- |
@@ -36,4 +37,9 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Bugbuster2004/cpp_dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0412-fizz-buzz](https://github.com/Bugbuster2004/cpp_dsa/tree/master/0412-fizz-buzz) |
+## Simulation
+|  |
+| ------- |
+| [0412-fizz-buzz](https://github.com/Bugbuster2004/cpp_dsa/tree/master/0412-fizz-buzz) |
 <!---LeetCode Topics End-->
