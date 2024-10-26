@@ -17,7 +17,7 @@ class Solution{
         for(int j = index; j < S.size(); j++){
             swap(S[index], S[j]);
             solve(index+1, ans, S);
-            swap(S[index], S[j]);
+            swap(S[index], S[j]);//backtrcak
         }
     }
     
@@ -26,7 +26,7 @@ class Solution{
         vector<string> ans;
         int index = 0;
         solve(0, ans, S);
-        sort(ans.begin(), ans.end());  // Sort the permutations lexicographically
+        sort(ans.begin(), ans.end());  
 
         return ans;
     }
