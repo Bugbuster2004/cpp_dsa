@@ -7,7 +7,6 @@ using namespace std;
 class Solution 
 {
     public:
-    
     void dfs(int i, vector<int> adj[], bool vis[], stack<int> &s) {
         vis[i] = true;
         for (auto x : adj[i]) {
@@ -17,7 +16,6 @@ class Solution
         }
         s.push(i);
     }
-
     void checkMother(int i, vector<int> adj[], bool vis[], int &c) {
         vis[i] = true;
         c++;
@@ -27,7 +25,6 @@ class Solution
             }
         }
     }
-
     // Function to find a Mother Vertex in the Graph.
     int findMotherVertex(int V, vector<int> adj[]) {
         bool vis[V];
@@ -42,7 +39,6 @@ class Solution
                 dfs(i, adj, vis, s);
             }
         }
-
         // Step 2: Check if the top of the stack is a mother vertex
         for (int i = 0; i < V; i++) {
             vis[i] = false;
